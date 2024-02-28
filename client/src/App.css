@@ -1,0 +1,341 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.container
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(245, 236, 236);
+}
+
+/* navbar */
+
+.navbar
+{
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 	#000000;
+}
+.navbar-left
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.amazon-pic
+{
+  width: 150px;
+  height: 60px;
+  /* background-color: pink; */
+}
+.location
+{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border: grey;
+  /* background-color: pink; */
+}
+.location-pic
+{
+  width: 30px;
+  height: 30px;
+}
+.search-in-navbar-center
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: pink; */
+}
+.select-all-navbar
+{
+  padding: 10px;
+}
+.search-amazon-text
+{
+  width: 150px;
+  padding: 10px;
+  transition: width 0.5s ease;
+}
+@media (min-width: 1500px) {
+  .search-amazon-text {
+      width: 1000px; /* Set to 100% width on screens wider than 768px */
+  }
+}
+.search-pic
+{
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(233, 208, 50);
+}
+.navbar-right
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flag
+{
+  color: white;
+  background-color: 	#000000;
+  padding: 10px;
+  /* background-color: pink; */
+}
+.sign-in
+{
+  padding: 10px;
+  color: white;
+  background-color: 	#000000;
+
+  /* background-color: pink; */
+}
+.returns-n-orders
+{
+  padding: 10px;
+  color: white;
+  background-color: 	#000000;
+  /* background-color: pink; */
+}
+.cart
+{
+  color: white;
+  background-color: 	#000000;
+  /* background-color: pink; */
+}
+.cart-pic
+{
+  width: 30px;
+  height: 30px;
+}
+
+/* menu bar */
+
+.menubar
+{
+  width: 100%;
+  /* margin: 10px; */
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #232f3e;
+}
+.hamburger-all
+{
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+  color: white;
+}
+.hamburger-pic
+{
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+.todays-deals, .customer-service, .registry, .gift-cards, .sell
+{
+  padding-right: 10px;
+  color: white;
+}
+
+/* reducing the size of width */
+
+.reducing-the-size-of-width
+{
+  max-width: 1500px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  /* background-color: aqua; */
+}
+/* ads */
+
+.ads
+{
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+  display: flex;
+  overflow: auto;
+  /* background-color: aqua; */
+}
+.left-arrow-pic, .right-arrow-pic
+{
+  width: 20px;
+  height: 20px;
+}
+.shop-books-add-pic, .movie-add-pic
+{
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(to bottom, pink, beige);
+}
+
+.ads img
+{
+  padding: 20px;
+}
+/* eight-cards */
+
+.eight-cards
+{
+  width: 100%;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 0px solid black; */
+  /* background-color: blue; */
+}
+
+.card-one
+{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* background-color: yellow; */
+}
+.cards-pic
+{
+  width: 270px;
+  height: 275px;
+}
+.shop-more
+{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.best-sellers
+{
+  padding: 20px;
+  width: 100%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  /* background-color: green; */
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.best-sellers-pic, .unexpected-deals-pic
+{
+  width: 150px;
+  height: 150px;
+}
+/* .left-arrow-best-sellers-pic
+{
+  align-self: center;
+  width: 20px;
+  height: 20px;
+} */
+.best-sellers .slides
+{
+  display: flex;
+  overflow: auto;
+}
+
+.best-sellers .slides img
+{
+  padding: 20px;
+}
+.four-cards
+{
+  width: 100%;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 0px solid black; */
+  /* background-color: blue; */
+}
+
+.unexpected-deals
+{
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid rgb(231, 221, 221);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.unexpected-deals .slides
+{
+  display: flex;
+  overflow: auto;
+}
+.unexpected-deals .slides img
+{
+  padding: 20px;
+}
+
+.deal-1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.copyright
+{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:	#232f3e;
+}
+.copyright-pic
+{
+  width: 100px;
+  height: 50px;
+}
+.copyright-text
+{
+  color: white;
+}
