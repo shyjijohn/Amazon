@@ -2,6 +2,8 @@ import './App.css';
 
 function App() {
 
+  console.log("Path : ", window.location.pathname)
+
   return (
     <div class="container">
 
@@ -9,7 +11,7 @@ function App() {
 
       <div class="navbar">
         <div class="navbar-left">
-          <img src="images/amazon-co-uk.png" class="amazon-pic" />
+          <img  src="images/amazon-co-uk.png" class="amazon-pic" />
           <div class="location">
             <img src="images/location-white.png" class="location-pic" />
             <div>Deliver to <div>UK</div></div>
